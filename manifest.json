@@ -1,20 +1,11 @@
 {
-  "id": "com.nuvio.streamedpk",
+  "id": "org.streamedpk.sports",
+  "version": "1.0.0",
   "name": "Streamed.pk Live Sports",
-  "description": "Live sports catalog and stream scraper directly from Streamed.pk.",
-  "version": "1.1.0",
-  "author": "Nuvio Community",
-  "icon": "https://streamed.pk/favicon.ico",
+  "description": "Live sports catalog",
   "resources": ["catalog", "stream"],
   "types": ["tv"],
   "catalogs": [
-    {
-      "type": "tv",
-      "id": "streamedpk_sports",
-      "name": "Streamed.pk Live Matches"
-    }
-  ],
-  "filename": "providers/streamedpk.js",
-  "enabled": true,
-  "supportsExternalPlayer": true
+    { "type": "tv", "id": "streamedpk_catalog", "name": "Streamed.pk Live Matches" }
+  ]
 }
