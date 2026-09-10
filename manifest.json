@@ -2,10 +2,15 @@
   "id": "org.streamedpk.sports",
   "version": "1.0.0",
   "name": "Streamed.pk Live Sports",
-  "description": "Live sports catalog",
+  "description": "Live sports catalog and streams scraped directly from Streamed.pk",
   "resources": ["catalog", "stream"],
   "types": ["tv"],
   "catalogs": [
-    { "type": "tv", "id": "streamedpk_catalog", "name": "Streamed.pk Live Matches" }
-  ]
+    {
+      "type": "tv",
+      "id": "streamedpk_live",
+      "name": "Streamed.pk Live Matches"
+    }
+  ],
+  "idPrefixes": ["spk_"]
 }
